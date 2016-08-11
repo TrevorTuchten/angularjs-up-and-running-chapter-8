@@ -11,7 +11,7 @@
 </head>
 <body ng-app="filtersApp">
 
-    <ul ng-controller="FilterCtrl as ctrl" ng-cloak>
+    <ol ng-controller="FilterCtrl as ctrl" ng-cloak>
         <li>
             Amount - {{ctrl.amount}}
         </li>
@@ -52,7 +52,7 @@
         <li>
             Custom Date filter: {{ctrl.startTime | date:'M/dd, yyyy'}}
         </li>
-    </ul>
+    </ol>
 
 <script src="bower_components/angular/angular.min.js"></script>
 <script type="text/javascript">
